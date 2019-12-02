@@ -14,7 +14,7 @@ class EmailResource(object):
     def on_get(self, req, resp):
         """Handles GET requests"""
         resp.status = falcon.HTTP_200
-        resp.body = 'Email API 2'
+        resp.body = 'Email API 5'
     def on_post(self, req, resp):
         """Handles POST requests"""
         try:
