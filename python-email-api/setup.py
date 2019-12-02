@@ -1,5 +1,5 @@
-from io import StringIO
 from setuptools import setup, find_packages
+from io import StringIO
 
 setup (
     name             = "sample:api",
