@@ -1,5 +1,6 @@
 from setuptools import setup, find_packages
-from io import StringIO
+from io import BytesIO     # for handling byte strings
+from io import StringIO    # for handling unicode strings
 
 setup (
     name             = "sample:api",
