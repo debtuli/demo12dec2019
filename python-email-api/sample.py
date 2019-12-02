@@ -8,8 +8,8 @@ import os
 import email
 from datetime import datetime
 from datetime import timedelta
-from io import StringIO
-pip install StringIO
+from io import BytesIO     # for handling byte strings
+from io import StringIO    # for handling unicode strings
 
 class EmailResource(object):
     def on_get(self, req, resp):
