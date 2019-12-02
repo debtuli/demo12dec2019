@@ -7,7 +7,7 @@ import pymysql.cursors
 import os
 from datetime import datetime
 from datetime import timedelta
-
+from io import StringIO
 
 
 class EmailResource(object):
