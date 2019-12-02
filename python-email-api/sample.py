@@ -9,7 +9,7 @@ import email
 from datetime import datetime
 from datetime import timedelta
 from io import StringIO
-
+pip install StringIO
 
 class EmailResource(object):
     def on_get(self, req, resp):
